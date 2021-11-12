@@ -1,0 +1,54 @@
+#text {
+	padding: 5px;
+	max-width: 70rem;
+	margin: auto;
+}
+
+body {
+	max-width: 700px;
+	margin: auto;
+	background: #f0edc0;
+	color: #000;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+#dpc {
+	max-width: 700px;
+}
+
+h1 {
+	font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.album {
+	margin: 10px;
+}
+
+a {
+    color: #c79006;
+}
+a:hover {
+    color: #edb018;
+    text-decoration: none;
+}
+a:visited {
+	 color: #b38309;
+}
+a:active {
+	color: #e8ac13;
+}
+
+@media screen and (max-width: 700px){
+	body {
+	max-width: 300px;
+	margin: auto;
+	background: #f0edc0;
+	color: #000;
+	font-family: Open Sans, Arial, sans-serif;
+}
+
+	#dpc {
+		max-width: 300px;
+	}
+	
+}
